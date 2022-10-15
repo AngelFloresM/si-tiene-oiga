@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -13,9 +14,10 @@
   "dependencies": {
     "node-cron": "^3.0.2",
     "node-notifier": "^10.0.1",
-    "playwright": "^1.25.2"
+    "nodemailer": "^6.8.0",
+    "playwright": "^1.27.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.20"
   }
 }
